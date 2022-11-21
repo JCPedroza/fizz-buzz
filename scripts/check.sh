@@ -3,13 +3,14 @@
 set -x # Echo commands
 
 # Python
-black ./python/ &&
-python ./python/fizz_buzz.test.py &&
+black ./python/ && # Lint
+mypy ./python/ &&  # Type check
+python ./python/fizz_buzz.test.py && # Unit tests
 
 # JavaScript
-standard --fix ./javascript/ &&
-node ./javascript/fizz-buzz.test.js &&
+standard --fix ./javascript/ && # Lint
+node ./javascript/fizz-buzz.test.js && # Unit tests
 
 # TypeScript
-ts-standard --fix ./typescript/ &&
-bun ./typescript/fizz-buzz.test.ts
+ts-standard --fix ./typescript/ && # Lint
+bun ./typescript/fizz-buzz.test.ts # Unit tests
