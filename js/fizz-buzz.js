@@ -22,13 +22,13 @@ const numToFizzBuzzStr = (num) => {
  * @returns {string[]} Array holding a sequence of fizz buzz strings.
  */
 const buildFizzBuzzSequence = (from, to) => {
-  const fbRange = []
+  const fbSeq = []
 
   for (let num = from; num <= to; num++) {
-    fbRange.push(numToFizzBuzzStr(num))
+    fbSeq.push(numToFizzBuzzStr(num))
   }
 
-  return fbRange
+  return fbSeq
 }
 
 module.exports = buildFizzBuzzSequence
