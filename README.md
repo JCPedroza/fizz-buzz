@@ -52,6 +52,6 @@ out: []
 
 ## Resources
 
-[FizzBuzz at Wikipedia][50]
+[Fizz Buzz at Wikipedia][50]
 
 [50]: https://en.wikipedia.org/wiki/Fizz_buzz
