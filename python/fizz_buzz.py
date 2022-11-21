@@ -27,4 +27,4 @@ def build_fizz_buzz_sequence(start: int, end: int) -> list[str]:
     :param end: End of sequence (inclusive).
     :returns: List holding a sequence of fizz buzz strings.
     """
-    return list(map(int_to_fizz_buzz_str, range(start, end + 1)))
+    return [int_to_fizz_buzz_str(num) for num in range(start, end + 1)]
