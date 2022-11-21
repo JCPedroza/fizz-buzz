@@ -4,7 +4,7 @@ const fizzBuzz = require('./fizz-buzz')
  * Returns an object used to compare two arrays.
  *
  * @param {number[]} arrayA Array to compare.
- * @returns {object} An object used to compare two arrays..
+ * @returns {object} An object used to compare two arrays.
  */
 const expect = (arrayA) => ({
   /**
