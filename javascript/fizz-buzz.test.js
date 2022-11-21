@@ -2,26 +2,21 @@ const fizzBuzz = require('./fizz-buzz')
 
 /**
  * Returns an object used to compare two arrays.
- * @param {number[]} arr Array to compare.
+ *
+ * @param {number[]} arrayA Array to compare.
  * @returns {object} An object used to compare two arrays..
  */
-const expect = (arr) => ({
+const expect = (arrayA) => ({
   /**
    * Checks for deep quality between two arrays.
-   * @param {number[]} expArr Expected array to compare.
-   * @throws Will throw error if arrays are not deeply equal.
+   *
+   * @param {number[]} arrayB Expected array to compare.
+   * @throws Will throw an error if arrays are not deeply equal.
    */
-  toEqual: (expArr) => {
-    // Arrays of different sizes are not equal
-    if (arr.length !== expArr.length) {
-      const msg = `\nArrays of different sizes:\n[${arr}]\n[${expArr}]`
-      throw new Error(msg)
-    }
-
-    // Arrays with different values are not equal
-    for (let index = 0; index < expArr.length; index++) {
-      if (arr[index] !== expArr[index]) {
-        const msg = `\nInequality at index ${index}:\n[${arr}]\n[${expArr}]`
+  toEqual: (arrayB) => {
+    for (let index = 0; index < arrayB.length; index++) {
+      if (arrayA[index] !== arrayB[index]) {
+        const msg = `\nArrays are not equal:\n[${arrayA}]\n[${arrayB}]`
         throw new Error(msg)
       }
     }
