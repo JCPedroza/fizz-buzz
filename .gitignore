@@ -1,1 +1,5 @@
-# Nothing to ignore for JS yet
+# Python
+.mypy_cache
+__pycache__
+
+# Nothing for JavaScript yet
