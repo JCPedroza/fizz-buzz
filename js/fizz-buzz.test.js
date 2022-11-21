@@ -28,15 +28,15 @@ const expect = (arr) => ({
   }
 })
 
-// If range is inconsistent, return an empty array
+// Inconsistent ranges evaluate to empty arrays
 expect(fizzBuzz(10, 0))
   .toEqual([])
 
-// If both arguments are equal, return a singleton array
+// One-number ranges evaluate to singleton arrays
 expect(fizzBuzz(0, 0))
   .toEqual(['fizzbuzz'])
 
-// Test for positive range
+// Positive range
 expect(fizzBuzz(10, 20))
   .toEqual([
     'buzz',
@@ -51,7 +51,7 @@ expect(fizzBuzz(10, 20))
     '19',
     'buzz'])
 
-// Test for negative range
+// Negative range
 expect(fizzBuzz(-20, -10))
   .toEqual([
     'buzz',
