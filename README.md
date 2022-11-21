@@ -10,7 +10,10 @@ and returns a sequence of fizz buzz strings (use the most commonly used data
 structure for collections).
 
 - Write unit tests for your function, based on the examples given below
-(without using external dependencies).
+(without using external dependencies). Use the expect() assertion
+style if possible and idiomatic.
+
+- Document code with comments, idiomatically.
 
 ## Fizz Buzz String Conversion
 
