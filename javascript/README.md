@@ -2,7 +2,7 @@
 
 Style: [Standard JS][0]
 
-## Run Program From This Directory
+## Run Program from This Directory
 
 ```bash
 node fizz-buzz.test.js # with node
