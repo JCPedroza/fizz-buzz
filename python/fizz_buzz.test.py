@@ -3,7 +3,7 @@ from fizz_buzz import build_fizz_buzz_sequence as fizz_buzz
 
 class Expectation:
     """
-    Used to compare to arrays with the expect().to_equal() assertion style.
+    Used to compare two lists with the expect().to_equal() assertion style.
     """
 
     def __init__(self, list_a: list[str]):
@@ -11,9 +11,9 @@ class Expectation:
 
     def to_equal(self, list_b: list[str]):
         """
-        Checks for deep equality between two arrays.
+        Checks for deep equality between two lists.
 
-        :param list_b: Expected array to compare.
+        :param list_b: Expected list to compare.
         :raises: Will raise an error if lists are not deeply equal.
         """
         if self.list_a != list_b:
@@ -23,10 +23,10 @@ class Expectation:
 
 def expect(list_a: list[str]) -> Expectation:
     """
-    Returns an object used to compare two arrays.
+    Returns an object used to compare two lists.
 
-    :param list_a: Array to compare.
-    :returns: AN object used to compare two arrays.
+    :param list_a: List to compare.
+    :returns: AN object used to compare two lists.
     """
     return Expectation(list_a)
 
