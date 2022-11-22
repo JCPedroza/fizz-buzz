@@ -1,7 +1,7 @@
 # Fizz Buzz Unit-Tested and Implemented in Multiple Languages
 
 An exercise to review the basics of some programming languages, their runtimes,
-and static analysis possibilities.
+module system, documentation, and static analysis possibilities.
 
 Only one implementation per language. The aim is for all the code to illustrate
 idiomatic patterns.
