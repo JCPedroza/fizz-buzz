@@ -1,4 +1,4 @@
-def int_to_fizz_buzz_str(num: int) -> str:
+def int_to_fb_str(num: int) -> str:
     """
     Converts an integer into a fizz buzz string. That is, numbers divisible by 3 to
     "fizz", by 5 to "buzz", by both to "fizzbuzz", and everything else to the string
@@ -18,7 +18,7 @@ def int_to_fizz_buzz_str(num: int) -> str:
     return fbStr or str(num)
 
 
-def build_fizz_buzz_sequence(start: int, end: int) -> list[str]:
+def build_fb_sequence(start: int, end: int) -> list[str]:
     """
     Builds a sequence of fizz buzz strings starting and ending at the specified
     range.
@@ -27,4 +27,4 @@ def build_fizz_buzz_sequence(start: int, end: int) -> list[str]:
     :param end: End of sequence (inclusive).
     :returns: List holding a sequence of fizz buzz strings.
     """
-    return [int_to_fizz_buzz_str(num) for num in range(start, end + 1)]
+    return [int_to_fb_str(num) for num in range(start, end + 1)]
