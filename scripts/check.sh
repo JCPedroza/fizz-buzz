@@ -7,9 +7,14 @@ black ./python/ && # Lint
 mypy ./python/ &&  # Type check
 time python ./python/fizz_buzz.test.py && # Unit tests
 
+# TODO Lua
+
+# TODO Java
+
 # JavaScript
 standard --fix ./javascript/ && # Lint
 time node ./javascript/fizz-buzz.test.js && # Unit tests
+time bun ./javascript/fizz-buzz.test.js && # Unit tests
 
 # Racket
 time racket ./racket/fizz-buzz.test.rkt && # Unit tests
