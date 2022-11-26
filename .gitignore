@@ -2,6 +2,11 @@
 .mypy_cache
 __pycache__
 
+# Nothig for Lua yet
+
+# Java
+.class
+
 # Nothing for JavaScript yet
 
 # Nothing for Racket yet
