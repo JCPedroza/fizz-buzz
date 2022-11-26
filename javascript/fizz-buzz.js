@@ -2,7 +2,7 @@
  * Functions used to convert a number into a fizz buzz string.
  */
 const builders = [
-  (num, str) => num % 3 === 0 ? `fizz` : str,
+  (num, str) => num % 3 === 0 ? 'fizz' : str,
   (num, str) => num % 5 === 0 ? `${str}buzz` : str,
   (num, str) => str || String(num)
 ]
