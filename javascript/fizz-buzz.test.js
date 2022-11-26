@@ -39,3 +39,5 @@ expect(fizzBuzz(-20, -10))
     '-11',
     'buzz'
   ])
+
+console.log('JavaScript unit tests passed!')

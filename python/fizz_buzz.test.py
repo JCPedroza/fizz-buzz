@@ -1,4 +1,4 @@
-from fizz_buzz import build_fizz_buzz_sequence as fizz_buzz
+from fizz_buzz import build_fb_sequence as fizz_buzz
 
 
 class Expectation:
@@ -70,3 +70,5 @@ expect(fizz_buzz(-20, -10)).to_equal(
         "buzz",
     ]
 )
+
+print("Python unit tests passed!")

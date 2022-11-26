@@ -97,3 +97,5 @@ expect(fizz_buzz(-20, -10))
   "-11",
   "buzz"
 })
+
+print("Lua unit tests passed!")

@@ -64,3 +64,5 @@ expect(fizzBuzz(-20, -10))
     'fizz',
     '-11',
     'buzz'])
+
+console.log('TypeScript unit tests passed!')

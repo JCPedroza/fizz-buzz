@@ -53,3 +53,5 @@
     "fizz"
     "-11"
     "buzz"))
+
+(print "Racket unit tests passed!")
