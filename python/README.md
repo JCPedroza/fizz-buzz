@@ -1,6 +1,8 @@
 # Fizz Buzz Implemented in Python
 
-Style: [Black][0]
+## Lint &  Static Analysis:
+
+- [Black][0]
 
 ## Run Program from This Directory
 

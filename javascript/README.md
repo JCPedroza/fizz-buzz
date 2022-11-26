@@ -1,6 +1,8 @@
 # Fizz Buzz Implemented in JavaScript
 
-Style: [Standard JS][0]
+## Lint & Static Analysis
+
+- [Standard JS][0]
 
 ## Run Program from This Directory
 
